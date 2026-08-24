@@ -13,6 +13,7 @@ Estabelecer um fluxo de trabalho colaborativo, organizado, automatizado e confi�
 * **Linguagem/Base:** HTML5 / Nginx
 
 ## 4. Estrutura de Pastas
+```text
 devops-codefactory/
 ├── .github/
 │   └── workflows/
@@ -22,7 +23,8 @@ devops-codefactory/
 │   └── index.html
 ├── Dockerfile
 └── README.md
+```
 ## 5. Instruções de Instalação e Execução
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/devops-codefactory.git
+   git clone https://github.com/jardesongb/devops-codefactory.git
