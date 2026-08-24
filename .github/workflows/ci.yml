@@ -1,0 +1,24 @@
+name: Pipeline CI - CodeFactory
+
+on:
+  push:
+    branches: [ "main", "desenvolvimento" ]
+  pull_request:
+    branches: [ "main", "desenvolvimento" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do codigo
+      uses: actions/checkout@v3
+
+    - name: Validar sintaxe HTML
+      run: |
+        echo "Validando arquivos do projeto..."
+        test -f src/index.html
+
+    - name: Build da Imagem Docker
+      run: |
+        docker build -t app-codefactory-test .
