@@ -23,10 +23,3 @@ devops-codefactory/
 │   └── index.html
 ├── Dockerfile
 └── README.md
-```
-## 5. Instruções de Instalação e Execução
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/jardesongb/devops-codefactory.git
-
-   
