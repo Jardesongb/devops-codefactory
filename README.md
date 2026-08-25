@@ -29,4 +29,4 @@ devops-codefactory/
    ```bash
    git clone https://github.com/jardesongb/devops-codefactory.git
 
-   #6 inserindo mais colaboradores.
+   
